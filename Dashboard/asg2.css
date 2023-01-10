@@ -1,0 +1,659 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+}
+/* .vid{
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+@media (min-aspect-ratio :16/9) {
+  .vid{
+      width: 100%;
+      height: auto;
+  }
+}
+@media (max-aspect-ratio :16/9) {
+  .vid{
+      width: auto;
+      height: 100%;
+  }
+} */
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2.4px 10px;
+    justify-content: space-between;
+    background-image: url(img11.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.material-icons{
+  color: white;
+  /* font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal; */
+  font-size: 30px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 2.5;
+  /* text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr; */
+}
+
+.one{
+    width: 7%;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgba(58, 0, 250, 0.3); */
+    border-radius: 25px;
+    background-image: linear-gradient(180deg,#383737,black);
+}
+.two{
+    width: 67%;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+}
+  .two .top{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 20px;
+    /* background-color: rgba(255,255,255,.2);; */
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+.two .middle{
+    width: 100%;
+    height: 30vh;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+.middle .Card_2 {
+    width: 24%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* padding: 0px 20px; */
+    background-color: rgba(4, 4, 4, 0.5);
+    border: 2px solid rgb(50, 50, 50);
+    border-radius: 25px;
+}
+.Card_2 .K{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+.Card_2 .L{
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0px 20px;
+  color: white;
+  font-size: 35px;
+}
+.Card_2 .M{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0px 20px;
+  color: white;
+  font-size: 17px;
+}
+.two .bottom{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  /* background-color: aqua; */
+}
+.bottom .left{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height : 100%;
+  /* background-color: white; */
+}
+.left .Card_1{
+  width: 100%;
+  height: 49%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(4, 4, 4, 0.5);
+  border: 2px solid rgb(50, 50, 50);
+  border-radius: 25px;
+}
+.Card_1 .A{
+  width:100%;
+  height: 30%;
+  display: flex;
+  justify-content: left;
+  font-size: 30px;
+  color: white;
+  /* background-color: rgba(255,255,255,.2);
+  border-radius: 25px; */
+  padding: 5px 40px;
+}
+.Card_1 .B{
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  /* background-color: rgba(255,255,255,.2);
+  border-radius: 25px; */
+}
+.B .C{
+  width: 50%;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgba(255,255,255,.2);
+  border-radius: 25px; */
+  padding: 5px;
+  color: white;
+  font-size: 80px;
+}
+.B .D{
+  width: 50%;
+  height:100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  /* background-color: rgba(255,255,255,.2);;
+  border-radius: 25px; */
+  padding: 5px;
+  color: white;
+}
+.D .E{
+  width: 45%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(2, 104, 7, 0.568);
+  border-radius: 10px;
+  color: rgb(9, 255, 0);
+}
+.D .F{
+  width: 45%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(91, 2, 2, 0.568);
+  border-radius: 10px;
+  color: rgb(255, 0, 0);
+}
+.bottom .right{
+  width: 59%;
+  height: 100%;
+  background-image: url(Images_1/chart2.png);
+  background-size: cover;
+  background-position: center;
+  /* background-color: rgba(255,255,255,.2); */
+  border-radius: 25px;
+  background-color: rgba(4, 4, 4, 0.5);
+  border: 2px solid rgb(50, 50, 50);
+}
+.two .last{
+  width: 99%;
+  height: 9vh;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(4, 4, 4, 0.5);
+  border: 2px solid rgb(50, 50, 50);
+  border-radius: 25px;
+  color: aliceblue;
+  font-size: 30px;
+}
+.three{
+    width: 24%;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: greenyellow; */
+}
+.three .t1{
+  width:100%;
+  height: 10vh;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(4, 4, 4, 0.5);
+  border: 2px solid rgb(50, 50, 50);
+  border-radius: 25px;
+}
+.t1 .img{
+  width: 20%;
+  height: 80%;
+  background-image: url(./young-bearded-man-with-striped-shirt_273609-5677.webp);
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  border: 2px solid rgb(50, 50, 50);
+}
+.three .t2{
+  width: 100%;
+  height: 28.5vh;
+  margin: 5px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(4, 4, 4, 0.5);
+  border: 2px solid rgb(50, 50, 50);
+  border-radius: 17px;
+  color: aliceblue;
+  font-size: 30px;
+  padding:10px 20px;
+}
+.t2 .G{
+  width: 100%;
+  height: 10%;
+}
+.t2 .H{
+  width: 100%;
+  height: 10%;
+  border-radius: 17px;
+  border: 2px solid rgb(124, 123, 123);
+  /* background-color: rgba(255,255,255,.2);;
+  border-radius: 17px; */
+}
+.t2 .J{
+  width: 100%;
+  height: 10%;
+  font-size: 20px;
+}
+.H .I{
+  width: 70%;
+  height: 100%;
+  background-color: #3F00FF;
+  /* background-image: linear-gradient(90deg,#900C3F,#C70039,#FF5733,#FFC300); */
+  border-radius: 17px;
+}
+.t2 button{
+  width: 99%;
+  height: 20%;
+  border-radius: 10px;
+  color: aliceblue;
+  background-color: #3F00FF;
+  /* background-image: linear-gradient(90deg,#900C3F,#C70039,#FF5733,#FFC300); */
+  font-size: 20px;
+  border: none;
+
+}
+.three .t3{
+  width: 100%;
+  height: 60vh;
+  padding: 5px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: yellow; */
+}
+.t3 .Card{
+  width: 100%;
+  height: 24%;
+  padding: 0px 20px;
+  background-color: rgba(4, 4, 4, 0.5);
+  border: 2px solid rgb(50, 50, 50);
+  border-radius: 25px;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}
+.t3 .Card .material-icons{
+  padding-right: 15px;
+}
+/* ------------------------------------------ MOBILE VIEW -------------------------------------------------- */
+@media screen and (max-width: 426px){
+
+  body{
+    flex-direction: column-reverse;
+    background-image: url(img12.jfif);
+  }
+.one{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 20px;
+    flex-direction: row;
+    background: none;
+    display: none;
+}
+.one .material-icons{
+  font-size: 20px;
+}
+.two{
+    width: 100%;
+    height: 90%;
+}
+  .two .top{
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.top .material-icons{
+  font-size: 0px;
+}
+
+.two .middle{
+    height: 600px;
+    padding: 0px;
+    flex-direction: column;
+}
+.middle .material-icons{
+  display: none;
+}
+
+.middle .Card_2 {
+    width: 100%;
+    height: 20%;
+    margin-top: 5px;
+    flex-direction: row-reverse;
+}
+.Card_2 .K{
+  display: none;
+}
+.Card_2 .L{
+  height: 50%;
+  justify-content: space-around;
+  font-size: 30px;
+  padding-top: 50px;
+}
+.Card_2 .M{
+  height: 50%;
+  justify-content: space-around;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 50px;
+}
+.two .bottom{
+  height: 40vh;
+  padding: 0px;
+  padding-top: 5px;
+}
+.bottom .left{
+  width: 100%;
+  height : 350px;
+}
+.left .Card_1{
+  height: 100%;
+  margin-top: 5px;
+}
+.Card_1 .A{
+  justify-content: center;
+  font-size: 35px;
+  padding: 0px 0px;
+}
+.Card_1 .B{
+  height: 60%;
+}
+.B .C{
+  font-size: 50px;
+}
+.B .D{
+  justify-content: center;
+}
+.D .E{
+  height: 50%;
+  width: 70%;
+}
+.D .F{
+  height: 50%;
+  width: 70%;
+}
+.bottom .right{
+  width: 0%;
+  height: 0%;
+  border: 0px solid rgb(126, 125, 125);
+}
+.two .last{
+  height: 50px;
+  margin: 0px;
+  margin: 30px 0px;
+  font-size: 20px;
+  justify-content: center;
+  border-radius: 10px;
+}
+.three{
+    width: 100%;
+    height: 80px;
+}
+.three .material-icons{
+  font-size: 30px;
+}
+
+.three .t1{
+  width:100%;
+  height: 100%;
+  padding: 0px 20px;
+}
+.t1 .img{
+  width: 17%;
+  height: 80%;
+  border: 0px;
+}
+.three .t2{
+  display: none;
+}
+.t2 .G{
+  display: none;
+}
+.t2 .H{
+  display: none;
+}
+.t2 .J{
+  display: none;
+}
+.H .I{
+  display: none;
+}
+.t2 button{
+  display: none;
+}
+.three .t3{
+  display: none;
+}
+.t3 .Card{
+  display: none;
+}
+.t3 .material-icons{
+  display: none;
+}
+}
+/* ------------------------------------------ TABLET VIEW -------------------------------------------------- */
+ /* @media screen and (min-width: 767px){
+.material-icons{
+ font-size: 23.5px;
+  }
+.one{
+    width: 6%;
+    height: 100%;
+}
+.two{
+    width: 65%;
+    height: 100vh;
+    margin-left: 10px;
+}
+  .two .top{
+    justify-content: space-between;
+    font-size: 30px;
+}
+.top .material-icons{
+  font-size: 30px;
+}
+
+.two .middle{
+    width: 100%;
+    height: 30vh;
+    padding: 5px;
+    flex-direction: row;
+}
+.middle .material-icons{
+  font-size: 20px;
+}
+
+.middle .Card_2 {
+    width: 24%;
+    height: 100%;
+    border-radius: 20px;
+}
+.Card_2 .K{
+  width: 100%;
+  height: 30%;
+  padding: 7px;
+}
+.Card_2 .L{
+  width: 100%;
+  height: 40%;
+  justify-content: left;
+  font-size: 20px;
+  padding: 7px;
+}
+.Card_2 .M{
+  width: 100%;
+  height: 40%;
+  justify-content: left;
+  font-size: 10px;
+  padding: 7px;
+}
+.two .bottom{
+  width: 100%;
+  height: 50vh;
+  padding: 5px;
+}
+.bottom .left{
+  width: 40%;
+  height : 100%;
+}
+.left .Card_1{
+  width: 100%;
+  height: 49%;
+}
+.Card_1 .A{
+  justify-content: left;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+.Card_1 .B{
+  width: 100%;
+  height: 60%;
+}
+.B .C{
+  font-size: 60px;
+}
+.B .D{
+  justify-content: left;
+}
+.bottom .right{
+  width: 59%;
+  height: 100%;
+  border: 2px solid rgb(126, 125, 125);
+}
+.two .last{
+  width: 99%;
+  height: 9%;
+  margin: 5px;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.three{
+    width: 26%;
+    height: 100vh;
+}
+.three .material-icons{
+  font-size: 23.5px;
+}
+
+.three .t1{
+  width: 100%;
+  height: 10vh;
+  padding: 0px 20px;
+}
+.t1 .img{
+  width: 20%;
+  height: 60%;
+}
+.three .t2{
+  width: 100%;
+  height: 28.5vh;
+  margin: 5px 0px;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.t2 .G{
+  width: 100%;
+  height: 10%;
+  font-size: 17px;
+}
+.t2 .H{
+  width: 100%;
+  height: 10%;
+  border: 2px solid rgb(124, 123, 123);;
+}
+.t2 .J{
+  width: 100%;
+  height: 10%;
+  font-size: 15px;
+}
+.H .I{
+  width: 70%;
+  height: 100%;
+}
+.t2 button{
+  width: 99%;
+  height: 20%;
+  font-size: 15px;
+}
+.three .t3{
+  width: 100%;
+  height: 60vh;
+  padding: 5px 0px;
+}
+.t3 .Card{
+  width: 100%;
+  height: 24%;
+  padding: 0px 10px;
+  font-size: 10px;
+}
+}  */
